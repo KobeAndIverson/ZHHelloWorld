@@ -19,6 +19,7 @@
 		17A708C31946FB7000E70870 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A708AB1946FB7000E70870 /* UIKit.framework */; };
 		17A708CB1946FB7000E70870 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17A708C91946FB7000E70870 /* InfoPlist.strings */; };
 		17A708CD1946FB7000E70870 /* UI_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A708CC1946FB7000E70870 /* UI_testTests.m */; };
+		17A708D81947006600E70870 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17A708D71947006600E70870 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		17A708C81946FB7000E70870 /* UI.testTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UI.testTests-Info.plist"; sourceTree = "<group>"; };
 		17A708CA1946FB7000E70870 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		17A708CC1946FB7000E70870 /* UI_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UI_testTests.m; sourceTree = "<group>"; };
+		17A708D61947006600E70870 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		17A708D71947006600E70870 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				17A708B61946FB7000E70870 /* AppDelegate.h */,
 				17A708B71946FB7000E70870 /* AppDelegate.m */,
+				17A708D61947006600E70870 /* RootViewController.h */,
+				17A708D71947006600E70870 /* RootViewController.m */,
 				17A708B91946FB7000E70870 /* Images.xcassets */,
 				17A708AE1946FB7000E70870 /* Supporting Files */,
 			);
@@ -241,6 +246,7 @@
 			files = (
 				17A708B81946FB7000E70870 /* AppDelegate.m in Sources */,
 				17A708B41946FB7000E70870 /* main.m in Sources */,
+				17A708D81947006600E70870 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
